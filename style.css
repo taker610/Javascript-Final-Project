@@ -82,9 +82,43 @@
     width: 50px;
 }
 
+svg:hover {
+    cursor: pointer;
+    fill: blue;
+}
+
 .search__results {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie__card {
+    width: calc(100%/3);
+    margin: 10px 0;
+}
+
+.poster {
+    height: 500px;
+    width: 100%;
+    max-width: 350px;
+}
+
+select {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.searchHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.movie__card h3 {
+    width: 100%;
+    max-width: 350px;
 }
 
